@@ -17,6 +17,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3%;
 }
 
 h1 {
@@ -87,7 +88,6 @@ h1 {
     align-items: center;
     flex-wrap: wrap;
     box-shadow: 0px 0px 20px #ff0000;
-    margin-bottom: 20px;
     position: relative;
 }
 
@@ -304,4 +304,12 @@ h1 {
     text-shadow: 0px 0px 5px black;
 }
 
-
+footer {
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(#00000000, #ff0000, #b90000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
