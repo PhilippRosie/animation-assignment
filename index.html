@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
@@ -25,11 +28,18 @@
 
     <main class="main-container">
         <section>
+            <div class="text-container"><p class="text-intro1">Welcome to the EPIC game that plays itself,
+                    This is like the Name says...</p>
+            </div>
+
+            <div>
+                <p class="text-intro2">This is THE GAME! Are you ready på PLAY?!</p>
+            </div>
             <div class="gameboard-container">
 
                 <div class="square">
                     <div class="move1">
-                        <svg width="180" height="180" viewbox="-50 -50 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="circle-slideoutup animate__animated animate__slideOutUp" width="180" height="180" viewbox="-50 -50 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="110" cy="110" r="100" stroke-width="20" fill="none" stroke="blue"></circle>
                         </svg>
                     </div>
@@ -37,7 +47,7 @@
 
                 <div class="square">
                     <div class="move2">
-                        <svg width="180" height="180" viewbox="-50 -50 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="circle-remove" width="180" height="180" viewbox="-50 -50 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="110" cy="110" r="100" stroke-width="20" fill="none" stroke="blue"></circle>
                         </svg>
                     </div>
@@ -53,7 +63,7 @@
 
                 <div class="square">
                     <div class="move4">
-                        <svg width="180" height="180" viewbox="-50 -50 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="cirle-bounceout animate__animated animate__bounceOut" width="180" height="180" viewbox="-50 -50 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="110" cy="110" r="100" stroke-width="20" fill="none" stroke="blue"></circle>
                         </svg>
                     </div>
@@ -69,7 +79,7 @@
 
                 <div class="square">
                     <div class="move6">
-                        <svg width="180" height="180" viewbox="-50 -50 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="circle-rollout animate__animated animate__rollOut" width="180" height="180" viewbox="-50 -50 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="110" cy="110" r="100" stroke-width="20" fill="none" stroke="blue"></circle>
                         </svg>
                     </div>
@@ -85,7 +95,7 @@
 
                 <div class="square">
                     <div class="move8">
-                        <svg width="180" height="180" viewbox="-50 -50 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="circle-spinfadeout" width="180" height="180" viewbox="-50 -50 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="110" cy="110" r="100" stroke-width="20" fill="none" stroke="blue"></circle>
                         </svg>
                     </div>
@@ -98,6 +108,9 @@
                         </svg>
                     </div>
                 </div>
+
+                <div class="game-finished-container"><h2 class="game-finished">You Loose and I Won again! 
+                    <p class="game-finished1">Hahahaha!</p></h2></div>
             </div>
         </section>
     </main>
