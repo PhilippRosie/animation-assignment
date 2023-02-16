@@ -50,7 +50,6 @@ h1 {
     animation-fill-mode: forwards;
     color: white;
     font-family: 'Alumni Sans Pinstripe', sans-serif;
-    margin-top: 20px;
 }
 
 .text-intro2 {
@@ -65,7 +64,7 @@ h1 {
     color: white;
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     opacity: 0;
 }
 
