@@ -17,7 +17,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3%;
 }
 
 h1 {
@@ -326,8 +325,6 @@ h1 {
     align-items: center;
 }
 
-
-
 footer {
     width: 100%;
     height: 100px;
@@ -335,5 +332,4 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
 }
